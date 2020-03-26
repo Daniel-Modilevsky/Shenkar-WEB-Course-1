@@ -1,0 +1,126 @@
+/*--------------Global-CSS---------------*/
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    direction: : ltr;
+    font-size: 12.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EBEE;
+}
+
+/*--------------Header---------------*/
+header {
+    background-color: #4267B2;
+    color: white;
+    overflow: hidden;
+    font-Weight: bold;
+    border: 1px solid #1A2947;
+    width: 100%;
+
+}
+
+.top {
+    padding-top: 1%;
+    height: 25px;
+}
+
+.Links {
+    display: inline;
+}
+
+.Links li {
+    display: inline;
+    padding-left: 3%;
+    list-style-type: none;
+
+}
+
+.Links li a:hover {
+    color: whitesmoke;
+}
+
+/*--------------Main---------------*/
+
+.Main {
+    width: 100%;
+}
+
+.left {
+    margin-left: 15%;
+}
+
+.right {
+    margin-right: 15%;
+}
+
+.main-body {
+    height: 700px;
+}
+
+.Main-top {
+    width: 100%;
+    text-align: center;
+}
+
+.Main-top h2 {
+    color: #4267B2;
+}
+
+.Main-body img {
+    height: 400px;
+    width: 500px;
+}
+
+.Main-body img:hover {
+    opacity: 0.7;
+}
+
+
+.Main-body .full-img {
+    width: 60%;
+    height: 500px;
+}
+
+.Main-body .full-img:hover {
+    opacity: 1;
+}
+
+.Main-body .two-lines {
+    width: 400px;
+    padding-left: 1.5%;
+}
+
+.Main-body .quotes ol li {
+    font-style: italic;
+}
+
+.Main-body .quotes ol li span {
+    font-weight: bold;
+}
+
+/*--------------Footer---------------*/
+
+footer {
+    color: darkblue;
+    overflow: hidden;
+    font-Weight: bold;
+    border: 1px solid #1A2947;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Foot {
+    background-color: snow;
+    width: 100%;
+    height: 40px;
+}
+
+.Foot img {
+    height: 40px;
+    width: 100px;
+    padding-left: 46%;
+}
