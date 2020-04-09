@@ -1,0 +1,328 @@
+/*--------------------------------ALL--------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+
+header,
+nav,
+aside,
+article,
+main,
+section,
+footer {
+    border: 0;
+    display: block;
+}
+
+
+body {
+    background-color: #171932;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+/*-------------------Header-------------------*/
+
+body header {
+    height: 70px;
+    width: 100%;
+    margin-left: 16px;
+}
+
+header a {
+    background: url("../imeges/code8.gif") no-repeat left center;
+    background-size: 48px;
+    display: block;
+    height: 48px;
+    width: 100%;
+    text-decoration: none;
+}
+
+header a h3 {
+    padding-top: 4px;
+    font-family: Carter One;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 64px;
+}
+
+header a h3:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+
+
+
+/*-------------------Footer-------------------*/
+
+footer {
+    width: 100%;
+    height: 48px;
+    background: #9B51E0;
+}
+
+footer nav a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    padding-left: 15px;
+}
+
+#footNav {
+    padding-top: 17px;
+    padding-left: 20px;
+
+}
+
+#twitter {
+    background: url("../imeges/twitter.png") no-repeat center center;
+}
+
+#linkedin {
+    background: url("../imeges/linkedin.png") no-repeat center center;
+}
+
+#gmail {
+    background: url("../imeges//google.png") no-repeat center center;
+
+}
+
+#facebook {
+    background: url("../imeges/facebook.png") no-repeat center center;
+}
+
+footer nav a:hover {
+    opacity: 0.7;
+}
+
+/*-------------------Main-------------------*/
+main h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+main h1 span {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 16px;
+    bottom: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*--------------------------------Page2--------------------------------*/
+
+/*-------------------Nav-------------------*/
+#nav4Pic {
+    margin-left: 16px;
+    height: 36vh;
+    margin-right: 20px;
+}
+
+
+
+#nav4Pic img {
+    height: 168px;
+    width: 256px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#nav4Pic img:hover {
+    height: 250px;
+    width: 380px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+
+}
+
+
+/*-------------------Main-------------------*/
+
+#main {
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+
+
+#main nav {
+    margin-top: 23px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 28px;
+    line-height: 33px;
+    margin-left: 0;
+
+}
+
+#main nav a {
+    display: inline;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+}
+
+#main nav a:hover {
+    text-decoration: underline;
+}
+
+/*-----Sections-----*/
+
+#main .sec {
+    height: 191px;
+    width: 367px;
+    margin-bottom: 71px;
+}
+
+#main .sec header {
+    width: 206px;
+    height: 43px;
+
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+
+#main .sec main {
+    height: 132px;
+    width: 367px;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+#main .sec.two {
+    margin-top: 45px;
+}
+
+#main .sec.first {
+    height: 236px;
+}
+
+#main .sec.last {
+    margin-bottom: 51px;
+}
+
+
+ol {
+    list-style: none;
+}
+
+ol li {
+    background: url("../imeges/car_icon.png") no-repeat left center;
+    background-size: 48px;
+    height: 48px;
+    width: 100%;
+    height: 48px;
+    padding: 4px 0px;
+}
+
+ol li span {
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-left: 64px;
+}
+
+ol li span:hover {
+    color: cornsilk;
+}
+
+
+/*--------------------------------Page1--------------------------------*/
+/*-------------------Main-------------------*/
+.page1 {
+    margin-left: 16px;
+}
+
+div {
+    width: 1600px;
+    height: 342px;
+}
+
+div img {
+    width: 1600px;
+    height: 331px;
+    left: 0px;
+    top: 0px;
+}
+
+/*-------Card---------*/
+
+.card {
+    box-shadow: 0px 2px 7px 1px rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 275px;
+    width: 270px;
+    background: #9B51E0;
+    margin: 16px 16px 117px 0px;
+    display: inline-block;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    height: 210px;
+    width: 270px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 white;
+}
+
+.card nav {
+    margin-top: 15px;
+}
+
+.card nav a {
+    padding-left: 6px;
+    font-size: 16px;
+    margin-right: 19px;
+    text-decoration: none;
+    color: white;
+}
+
+.card nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.card nav img {
+    margin-right: 6px;
+    display: inline;
+    height: 19px;
+    width: 19px;
+}
+
+.card nav #icon4 {
+    margin-left: 7px;
+}
+
+.card nav #icon3 {
+    width: 31px;
+}
+
+.card nav #icon1 {
+    width: 13px;
+}
+
+.card nav img:hover {
+    opacity: 0.7;
+}

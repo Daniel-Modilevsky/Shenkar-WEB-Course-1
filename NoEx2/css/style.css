@@ -1,0 +1,33 @@
+* {
+    border: 0;
+    padding: 0;
+    /*border: 1px solid black;
+     Debug trick */
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: Ariel;
+}
+
+header {
+    height: 240px;
+}
+
+
+#first {
+    height: 500px;
+}
+
+#first img {
+    margin-right: 10px;
+    height: 450px;
+    width: 350px;
+}
+
+
+
+
+#Seconed {
+    height: 240px;
+}
